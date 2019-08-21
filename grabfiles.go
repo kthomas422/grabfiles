@@ -124,7 +124,7 @@ func downloadFile(urlpath, file string, ch chan bool, chFinished chan bool) {
 func usage() {
     fmt.Println("Usage:")
     fmt.Println("\t$ grabfiles url [extenstions to download]")
-    fmt.Println("\tWhere extensions are option, default ones are \".c\", \".h\", \".pdf\", and \"writeup.html\"")
+    fmt.Println("\tWhere extensions are option, default ones are \".c\", \".h\", and \".pdf\"")
 }
 
 
